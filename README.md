@@ -22,8 +22,8 @@ Configure DB credentials in src/main/resources/application.properties
 
 Create database: CREATE DATABASE bankdb;
 
-Run the application: myn clean Install
+Run the application: mvn clean Install
 
-man spring-boot:run
+mvn spring-boot:run
 
 Test APIs using the Postman on http://localhost:8080
